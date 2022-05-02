@@ -1,0 +1,11 @@
+package main
+
+import fmt
+
+def main():
+	i: int
+	f: float64
+	b: bool
+	s: string
+	print("{i} {f} {b} {s/%q}\n")
+end

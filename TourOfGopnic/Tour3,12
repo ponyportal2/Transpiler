@@ -1,0 +1,9 @@
+package main
+
+import fmt
+
+def main():
+	defer print("world")
+
+	print("hello")
+end

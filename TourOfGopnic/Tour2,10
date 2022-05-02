@@ -1,0 +1,11 @@
+package main
+
+import fmt
+
+def main():
+	i, j := 1, 2
+	k := 3
+	c, python, java := true, false, "no!"
+
+	print(i, j, k, c, python, java)
+end

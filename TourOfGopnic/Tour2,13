@@ -1,0 +1,13 @@
+package main
+
+import:
+	fmt
+	math
+end
+
+def main():
+	x: int, y: int = 3, 4
+	f: float = math.Sqrt(float64(x*x + y*y))
+	z: uint = uint(f)
+	print(x, y, z)
+end

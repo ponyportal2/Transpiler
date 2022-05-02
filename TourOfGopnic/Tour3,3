@@ -1,0 +1,11 @@
+package main
+
+import fmt
+
+def main():
+	sum := 1
+	while sum < 1000:
+		sum += sum
+	end
+	print(sum)
+end

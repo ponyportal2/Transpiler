@@ -1,0 +1,11 @@
+package main
+
+import fmt
+
+def main():
+	sum := 0
+	for i in range(10):
+		sum += i
+	end
+	print(sum)
+end

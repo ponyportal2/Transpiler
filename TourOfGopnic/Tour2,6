@@ -1,0 +1,13 @@
+package main
+
+import fmt
+
+def swap(x: string, y: string) -> string, string:
+
+	return y, x
+end
+
+def main():
+	a, b := swap("hello", "world")
+	print(a, b)
+end

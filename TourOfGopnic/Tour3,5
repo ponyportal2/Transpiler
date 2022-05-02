@@ -1,0 +1,17 @@
+package main
+
+import:
+	fmt
+	math
+end
+
+def sqrt(x: float) -> string:
+	if x < 0:
+		return sqrt(-x) + "i"
+	end
+	return print(math.Sqrt(x))
+end
+
+def main():
+	print(sqrt(2), sqrt(-4))
+end

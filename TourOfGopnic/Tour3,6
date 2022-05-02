@@ -1,0 +1,20 @@
+package main
+
+import:
+	fmt
+	math
+end
+
+def pow(x: float, n: float, lim: float) -> float:
+	if v := math.Pow(x, n) and then v < lim:
+		return v
+	end
+	return lim
+end
+
+def main():
+	print:
+		pow(3, 2, 10),
+		pow(3, 3, 20),
+	end
+end

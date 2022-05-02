@@ -1,0 +1,18 @@
+package main
+
+import:
+	fmt
+	time
+end
+
+def main():
+	t := time.Now()
+	switch:
+	case t.Hour() < 12:
+		print("Good morning!")
+	case t.Hour() < 17:
+		print("Good afternoon.")
+	default:
+		print("Good evening.")
+	end
+end

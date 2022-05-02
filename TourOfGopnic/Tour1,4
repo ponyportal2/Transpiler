@@ -1,0 +1,12 @@
+package main
+
+import:
+	fmt
+	time
+end
+
+def main():
+	print("Welcome to the playground!")
+
+	print("The time is", time.Now())
+end

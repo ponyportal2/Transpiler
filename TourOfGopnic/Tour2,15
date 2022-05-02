@@ -1,0 +1,14 @@
+package main
+
+import fmt
+
+const Pi = 3.14
+
+def main():
+	const World = "世界"
+	print("Hello", World)
+	print("Happy", Pi, "Day")
+
+	const Truth = true
+	print("Go rules?", Truth)
+end

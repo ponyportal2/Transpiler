@@ -1,0 +1,10 @@
+package main
+
+import fmt
+
+c = python = java: bool
+
+def main():
+	i: int
+	print(i, c, python, java)
+end

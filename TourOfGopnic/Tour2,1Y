@@ -1,0 +1,10 @@
+package main
+
+import(
+	fmt
+	math/rand
+)
+
+def main():
+	print("My favorite number is", rand.Intn(10))
+end

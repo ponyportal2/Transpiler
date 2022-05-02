@@ -1,0 +1,13 @@
+package main
+
+import fmt
+
+def main():
+	print("counting")
+
+	for i in range (10):
+		defer print(i)
+	end
+
+	print("done")
+end

@@ -1,0 +1,7 @@
+package main
+
+import fmt
+
+def main():
+    print("Hello, 世界")
+end

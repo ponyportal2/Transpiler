@@ -1,0 +1,21 @@
+package main
+
+import:
+	fmt
+	time
+end
+
+def main():
+	print("When's Saturday?")
+	today := time.Now().Weekday()
+	switch time.Saturday:
+        case today + 0:
+            print("Today.")
+        case today + 1:
+            print("Tomorrow.")
+        case today + 2:
+            print("In two days.")
+        default:
+            print("Too far away.")
+	end
+end

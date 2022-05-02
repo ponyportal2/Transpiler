@@ -1,0 +1,8 @@
+package main
+
+import fmt
+
+def main():
+	v := 42 # change me!
+	print("v is of type {v/%T}\n")
+end

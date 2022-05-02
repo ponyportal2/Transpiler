@@ -1,0 +1,18 @@
+package main
+
+import:
+	fmt
+	math/cmplx
+end
+
+var:
+	ToBe:   bool       = false
+	MaxInt: int        = 1<<64 - 1
+	z:      complex    = cmplx.Sqrt(-5 + 12i)
+end
+
+def main():
+	print("Type: {ToBe/%T} Value: {ToBe}\n")
+	print("Type: {MaxInt/%T} Value: {MaxInt}\n")
+	print("Type: {z/%T} Value: {z}\n")
+end

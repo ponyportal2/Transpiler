@@ -1,0 +1,10 @@
+package main
+
+import:
+	fmt
+	math
+end
+
+def main():
+	print(math.pi)
+end
